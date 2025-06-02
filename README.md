@@ -5,10 +5,12 @@ OOP is a programming paradigm that organizes software design around objects, whi
 An object = data (fields/attributes) + methods (functions/behavior).
 
 OOP helps make your code:
-Modular
-Reusable
-Easier to maintain
-Scalable
+- Modular
+- Reusable
+- Easier to maintain
+- Scalable
+
+
 
 🎯 Four Pillars of OOP 
 
@@ -20,7 +22,7 @@ Scalable
 | **Polymorphism**  | ⏳ Later | One interface, many forms (method overloading/overriding)                         |
 
 🔐 Pillar 1: Encapsulation
-✅ Definition
+
 Encapsulation is the process of binding data and the methods that operate on that data into a single unit (class) and restricting direct access to it.
 
 ✅ Achieved in Java by:
@@ -29,7 +31,7 @@ Declaring class variables as private
 Providing public getters and setters
 
 ✅ Benefits:
-Data hiding and protection
-Controlled access
-Validation logic can be added
-Clean, maintainable, modular code
+- Data hiding and protection
+- Controlled access
+- Validation logic can be added
+- Clean, maintainable, modular code
