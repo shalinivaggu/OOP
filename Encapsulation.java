@@ -21,6 +21,7 @@ class Student {
 
     public void setMarks(int marks) {
         if(marks < 0 || marks > 100) {
+            marks = 0; // Reset to 0 if invalidS
             System.out.println("Marks must be between 0 and 100");
         } else {
             this.marks = marks;
@@ -51,5 +52,7 @@ public class Encapsulation {
 
         // Attempting to set invalid marks
         s.setMarks(110); // This should print an error message
+
+        s.displayDetails(); // Display details again to see if marks were updated
     }
 }
