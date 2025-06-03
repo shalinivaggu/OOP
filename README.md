@@ -36,7 +36,7 @@ Benefits:
 - Validation logic can be added
 - Clean, maintainable, modular code
 
-🔐Pillar 2 : Abstraction 
+🎭 Pillar 2 : Abstraction 
 Abstraction means showing only the essential features of an object while hiding the unnecessary details.
 
 In Java, abstraction is achieved using:
@@ -59,3 +59,5 @@ Think of it as “what an object does” rather than “how it does it.”
 - Improves code readability and maintainability
 - Encourages clean design and separation of concerns
 - Makes systems easier to extend
+
+🧬 PILLAR 3: INHERITANCE
