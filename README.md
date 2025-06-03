@@ -18,8 +18,8 @@ OOP helps make your code:
 | ----------------- | ------- | --------------------------------------------------------------------------------- |
 | **Encapsulation** | Done  | Wrapping data and restricting direct access using `private` and `getters/setters` |
 | **Abstraction**   | Done  | Hiding internal complexity and showing only essential features                    |
-| **Inheritance**   | Next  | Acquiring properties and behavior from parent class                               |
-| **Polymorphism**  | Later | One interface, many forms (method overloading/overriding)                         |
+| **Inheritance**   | Done  | Acquiring properties and behavior from parent class                               |
+| **Polymorphism**  | Next  | One interface, many forms (method overloading/overriding)                         |
 
 🔐 Pillar 1: Encapsulation
 
@@ -61,3 +61,20 @@ Think of it as “what an object does” rather than “how it does it.”
 - Makes systems easier to extend
 
 🧬 PILLAR 3: INHERITANCE
+Inheritance allows a class (child) to inherit properties and behaviors (fields and methods) from another class (parent).
+
+It promotes code reuse, hierarchical relationships, and extensibility in programs.
+
+
+✅ Benefits of Inheritance:
+- Code reusability
+- Logical class hierarchy
+- Simpler code maintenance
+- Enables method overriding and runtime polymorphism
+
+| Concept       | Keyword     | Example                           |
+| ------------- | ----------- | --------------------------------- |
+| Inheritance   | `extends`   | `class Dog extends Animal {}`     |
+| Access Parent | `super`     | `super.eat();`                    |
+| Override      | `@Override` | Overriding parent method in child |
+
