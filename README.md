@@ -16,22 +16,46 @@ OOP helps make your code:
 
 | Pillar            | Status  | Description                                                                       |
 | ----------------- | ------- | --------------------------------------------------------------------------------- |
-| **Encapsulation** | ✅ Done  | Wrapping data and restricting direct access using `private` and `getters/setters` |
-| **Abstraction**   | ⏳ Next  | Hiding internal complexity and showing only essential features                    |
-| **Inheritance**   | ⏳ Later | Acquiring properties and behavior from parent class                               |
-| **Polymorphism**  | ⏳ Later | One interface, many forms (method overloading/overriding)                         |
+| **Encapsulation** | Done  | Wrapping data and restricting direct access using `private` and `getters/setters` |
+| **Abstraction**   | Done  | Hiding internal complexity and showing only essential features                    |
+| **Inheritance**   | Next  | Acquiring properties and behavior from parent class                               |
+| **Polymorphism**  | Later | One interface, many forms (method overloading/overriding)                         |
 
 🔐 Pillar 1: Encapsulation
 
 Encapsulation is the process of binding data and the methods that operate on that data into a single unit (class) and restricting direct access to it.
 
-✅ Achieved in Java by:
+Achieved in Java by:
 Declaring class variables as private
 
 Providing public getters and setters
 
-✅ Benefits:
+Benefits:
 - Data hiding and protection
 - Controlled access
 - Validation logic can be added
 - Clean, maintainable, modular code
+
+🔐Pillar 2 : Abstraction 
+Abstraction means showing only the essential features of an object while hiding the unnecessary details.
+
+In Java, abstraction is achieved using:
+
+- Abstract Classes
+- Interfaces
+
+Think of it as “what an object does” rather than “how it does it.”
+
+🧩 Abstraction in Java: Two Tools
+
+
+| Tool               | Description                                                                                                         |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------- |
+| **Abstract Class** | A class that can have **abstract (unimplemented)** and **concrete (implemented)** methods                           |
+| **Interface**      | A full abstraction (before Java 8), only method **signatures** (from Java 8 onward, default/static methods allowed) |
+
+📌 Benefits of Abstraction
+- Hides internal complexity
+- Improves code readability and maintainability
+- Encourages clean design and separation of concerns
+- Makes systems easier to extend
