@@ -1,4 +1,4 @@
-**Object Oriented Programming in Java**
+****Object Oriented Programming in Java****
 
 OOP is a programming paradigm that organizes software design around objects, which can hold both data and behavior.
 
@@ -12,7 +12,7 @@ OOP helps make your code:
 
 
 
-🎯 Four Pillars of OOP 
+🎯 **Four Pillars of OOP** 
 
 | Pillar            | Status  | Description                                                                       |
 | ----------------- | ------- | --------------------------------------------------------------------------------- |
@@ -21,7 +21,7 @@ OOP helps make your code:
 | **Inheritance**   | Done  | Acquiring properties and behavior from parent class                               |
 | **Polymorphism**  | Next  | One interface, many forms (method overloading/overriding)                         |
 
-🔐 Pillar 1: Encapsulation
+🔐 **Pillar 1: Encapsulation**
 
 Encapsulation is the process of binding data and the methods that operate on that data into a single unit (class) and restricting direct access to it.
 
@@ -36,7 +36,8 @@ Benefits:
 - Validation logic can be added
 - Clean, maintainable, modular code
 
-🎭 Pillar 2 : Abstraction 
+🎭 **Pillar 2 : Abstraction**
+
 Abstraction means showing only the essential features of an object while hiding the unnecessary details.
 
 In Java, abstraction is achieved using:
@@ -60,7 +61,8 @@ Think of it as “what an object does” rather than “how it does it.”
 - Encourages clean design and separation of concerns
 - Makes systems easier to extend
 
-🧬 PILLAR 3: INHERITANCE
+🧬 **PILLAR 3: INHERITANCE**
+
 Inheritance allows a class (child) to inherit properties and behaviors (fields and methods) from another class (parent).
 
 It promotes code reuse, hierarchical relationships, and extensibility in programs.
