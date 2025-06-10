@@ -80,3 +80,22 @@ It promotes code reuse, hierarchical relationships, and extensibility in program
 | Access Parent | `super`     | `super.eat();`                    |
 | Override      | `@Override` | Overriding parent method in child |
 
+
+🧿 PILLAR 4: POLYMORPHISM in Java
+
+Polymorphism means “many forms”. In Java, it allows objects to behave differently based on their actual class, even when they’re referenced through a parent type.
+
+✌️ Two Types of Polymorphism
+| Type             | Also Known As                        | When It Happens |
+| ---------------- | ------------------------------------ | --------------- |
+| **Compile-time** | Method Overloading                   | At compile time |
+| **Runtime**      | Method Overriding + Dynamic Dispatch | At runtime      |
+
+Benefits of Polymorphism:
+- Code becomes flexible and extensible
+- We can generalize behavior
+- Helps in designing clean interfaces
+- Enables runtime decisions
+
+
+
