@@ -98,4 +98,16 @@ Benefits of Polymorphism:
 - Enables runtime decisions
 
 
+Inheritance vs Composition 
 
+Inheritance is a mechanism where one class inherits the properties and behaviors (fields and methods) of another class using the extends keyword.
+
+Composition is when one class has a reference to another class as a field, and uses its behavior — this is a "has-a" relationship.
+
+| Feature      | Inheritance                                    | Composition                           |
+| ------------ | ---------------------------------------------- | ------------------------------------- |
+| Relationship | "is-a"                                         | "has-a"                               |
+| Coupling     | Tight (strongly bound)                         | Loose (flexible)                      |
+| Flexibility  | Less flexible (can’t change superclass easily) | More flexible (can switch components) |
+| Reusability  | Reuses entire class structure                  | Reuses only necessary behavior        |
+| Preferred in | Quick hierarchies (Animal → Dog)               | Large systems (modular, plug & play)  |
